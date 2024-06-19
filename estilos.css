@@ -1,0 +1,520 @@
+
+.containerGlobal {
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+.containerBanner {
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+.logoCa{
+        position: absolute;
+        top: 70%; /* Ajusta la posición vertical */
+        left: 5%; /* Ajusta la posición horizontal */
+        width: 18%; /* Ajusta el tamaño del logo */
+        height: auto;
+}
+.btnCa{
+    position: absolute;
+    top: 82%; /* Ajusta la posición vertical */
+    left: 10%; /* Ajusta la posición horizontal */
+    width: 10%; /* Ajusta el tamaño del logo */
+    background-color: #0056b3;
+    color: #fff;
+    height: 5%;
+    border-radius: 20px;
+}
+.logoCar{
+    position: absolute;
+    top: 70%; /* Ajusta la posición vertical */
+    left: 40%; /* Ajusta la posición horizontal */
+    width: 18%; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+.btnCar{
+    position: absolute;
+    top: 82%; /* Ajusta la posición vertical */
+    left: 45%; /* Ajusta la posición horizontal */
+    width: 10%; /* Ajusta el tamaño del logo */
+    background-color: #0056b3;
+    color: #fff;
+    height: 5%;
+    border-radius: 20px ;
+}
+.logoCarru{
+    position: absolute;
+    top: 70%; /* Ajusta la posición vertical */
+    left: 75%; /* Ajusta la posición horizontal */
+    width: 18%; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+.btnCarru{
+position: absolute;
+top: 82%; /* Ajusta la posición vertical */
+left: 80%; /* Ajusta la posición horizontal */
+width: 10%; /* Ajusta el tamaño del logo */
+background-color: #0056b3;
+color: #fff;
+height: 5%;
+border-radius: 20px ;
+}
+.bannerLogo { 
+    width: 12%;
+	height: 40px;}
+    /************/
+    .containerI {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .overlay {
+        
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Coloca las imágenes en columna */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .bannerLogoDetallesB {
+      /** max-width: 200px;*/ /* Ajusta este valor según el tamaño deseado para las imágenes superpuestas */
+        width: 100%;
+        height: 100%;
+        margin: 0px; /* Ajusta el margen según sea necesario */
+    }
+    .bannerLogoDetalles {
+        max-width: 200px; /* Ajusta este valor según el tamaño deseado para las imágenes superpuestas */
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 40% ; /* Ajusta el margen según sea necesario */
+    }
+    /***********/
+
+.container{ 
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.videos { 
+width: 33%;
+left: 70%;
+float: left;
+margin-right: 2px;
+opacity: 0.6;
+}
+.containerVideo {
+    width: 100%;
+    text-align: center;
+   
+}
+
+.letra{
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    top: 50%;
+    text-align: center;
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: black; /* White text color */
+    font-size: 16px; /* Increased font-size */
+    border-left: 10px black;
+    width: 45%;
+}
+.containerColumna {
+    display: flex;
+    float: left;
+    text-align: center;
+    width:100% ;
+    margin-top: 20px;
+}
+.columnaBuscar {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: left; /* Center-align text */
+  padding: 0px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 16px; /* Increased font-size */
+  width: 80%;
+}
+.columnaImagen {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: left; /* Center-align text */
+    padding: 0px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: black; /* White text color */
+    font-size: 16px; /* Increased font-size */
+
+    width: 15%;
+}
+.bannerLogoColumna { 
+    width: 100%;
+	height: 40px;}
+
+.columnaLogito {
+    width: 30%;     
+    height: 30%;
+    margin: 0px;
+    text-align: center;
+}
+.logoColumna {
+    width: 10%; 
+    height: 10%;
+    text-align: center;
+}
+/***********/
+.logoMenu{
+    position: absolute;
+    top: 90%; /* Ajusta la posición vertical */
+    right: 5%; /* Ajusta la posición horizontal */
+    width: 30%; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+/****/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+/*****/
+.containerA {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    gap: 10px;
+}
+
+.carousel {
+    flex: 3; /* Ajusta la proporción de espacio para el carrusel */
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 40%; /* Tres columnas visibles */
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.button-column {
+    flex: 0 0 auto; /* No permita que el botón cambie de tamaño */
+    top: 25px   ;
+    float: right;
+}
+
+.custom-button {
+    position: absolute; /* Asegura que el botón se posicione relativo al carrusel */
+   /* top: 50%;*/ /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(+1200%, -600%); /* Ajusta para centrar perfectamente */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+/***GALERIA***/
+.containerE {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.containerF {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+    text-align: center;
+}
+
+.item {
+    flex: 1 1 calc(25% - 10px); /* Ajusta el tamaño de los elementos para que ocupen 25% del ancho del contenedor */
+    color: white;
+    text-align: center;
+   
+    box-sizing: border-box;
+    
+}
+.imagenGaleria{
+    width:  200px;
+    height: 220px;
+    left: 0px;
+    border-bottom: 5px solid red;
+}
+
+/******CUADRO BLOG******************/
+.containerG {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    float: left;
+  
+}
+.blogColumna { 
+    width: 80%;
+	height: 100px;
+}
+
+.blogColumnaG { 
+        width: 20%;
+        height: 200px;
+    margin-left: 5px;
+    opacity: 1;
+}
+    
+.carrousel {
+    flex: 5; /* Ajusta la proporción de espacio para el carrusel */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   /* background-color: #fff;*/
+background-size: 100% ;
+ height: 550px;
+ color: white;
+
+}
+
+.carrousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    background-size: 100% ;
+ height: 550px;
+ color: #333;
+}
+
+.carrousel-item {
+    min-width: 5%; /* Tres columnas visibles */
+    width: 20%;
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 5px;
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.carrousel-item img  {
+    width: 80%;
+    display: block;
+    opacity: 1;
+}
+
+
+/*********/
+.imagenColumnaSer { 
+    width: 100%;
+	height: 50%;
+}
+.containerColumna {
+    display: flex;
+    float: left;
+    text-align: center;
+    width:100% ;
+}
+.containerB {
+    display: flex;
+    float: left;
+    text-align: center;
+    width:100% ;
+    height: 80%;
+    background-color: #fff;
+}
+.columnaMain {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: left; /* Center-align text */
+  padding: 0px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 16px; /* Increased font-size */
+  width: 60%;  
+  margin: 20px;
+}
+.btnB{
+    position: absolute;
+    top: 82%; /* Ajusta la posición vertical */
+    left: 45%; /* Ajusta la posición horizontal */
+    width: 10%; /* Ajusta el tamaño del logo */
+    background-color: #0056b3;
+    color: #fff;
+    height: 5%;
+    border-radius: 20px ;
+}
+/**fila 4**/
+.containerC {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10px;
+    float: left;
+}
+.bannerLogoC { 
+    width: 100%;
+	height: 60%;
+}
+ .containerD {
+    position: absolute;/*Se posiciona de forma relativa al primer elemento padre que tiene una posición distinta a static*/
+    background-color: #e1f4fc;
+    top: 400%;
+    right: 0px;
+    width: 80%;
+    height: 100%;
+    border: 3px solid blue;
+    }
+   
+/**********footer***/
+.containerFooter {
+    display: flex;
+    float: left;
+    text-align: left;
+    width:100% ;
+}
+
+/*******carrusel 2**/
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.carousel-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Imagenes/BLOG/2.jpg'); /* Aquí va la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Opacidad del fondo */
+    z-index: 1;
+
+}
+.letraTitulo{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    opacity: 1;
+}
+.carousel-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.carousel-content img {
+    max-width: 60%;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 3;
+
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+.footer_iz{
+    width: 50%;
+}
+.linea_vertical{
+    border-left: 2px solid black;
+    width: 25%;
+    float: left;
+   margin: 10px;
+}
+.buttonCarru{
+   
+    top: 82%; /* Ajusta la posición vertical */
+    left: 45%; /* Ajusta la posición horizontal */
+    width: 25%; /* Ajusta el tamaño del logo */
+    background-color: #0056b3;
+    color: #fff;
+    height: 5%;
+    border-radius: 20px ;
+}
